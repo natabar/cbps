@@ -1,0 +1,74 @@
+.grid-content-red{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-red:hover{
+	background-color: #ED2124;
+	color: white;
+}
+
+.grid-content-blue{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-blue:hover{
+	background-color: #000b5e;
+	color: white;
+}
+
+.grid-content-green{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-green:hover{
+	background-color: #60bb48;
+	color: white;
+}
+
+.grid-content-yellow{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-yellow:hover{
+	background-color: #ffc800;
+	color: black;
+}
+.grid-content-purple{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-purple:hover{
+	background-color: #56328c;
+	color: white;
+}
+.grid-content-orange{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-orange:hover{
+	background-color: orange;
+	color: white;
+}
+
+.grid-content-green-himal{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.grid-content-green-himal:hover{
+	background-color: #60bb48;
+	color: yellow;
+}

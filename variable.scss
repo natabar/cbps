@@ -1,0 +1,33 @@
+$redd: red;
+$greenn: green;
+$bluee: blue;
+$whitee: white;
+
+.ime:hover{
+	background-color: red;
+	border: solid $redd 20px;
+	color: $whitee;
+}
+
+.esewa:hover{
+	background-color: green;
+	border: solid $greenn 20px;
+	color: $whitee;
+}
+
+.prabhu:hover{
+	background-color: red;
+	border: solid $redd 20px;
+	color: $whitee;
+}
+
+.khalti:hover{
+	background-color: purple;
+	border: solid purple 20px;
+	color: $whitee;
+}
+
+.western:hover{
+	background-color: yellow;
+	border:solid $yelloww 20px;
+}
