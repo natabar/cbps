@@ -32,6 +32,19 @@
 	background-size: cover;
 }
 
+.banner-container{
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .nav{
 	background: #262626;
 	height: 50px;
@@ -141,14 +154,14 @@
 }
 
 .about .about-content{
+	text-align: center;
 	margin: 150px auto 0 auto;
-	width: 500px;
-	height: 52vh;
+	width: 600px;
+	height: auto;
 }
 
 .about-content p{
 	text-align: justify;
-	font-family: 'Lato', sans-serif;
 	color: brown;
 }
 

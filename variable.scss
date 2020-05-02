@@ -1,33 +1,73 @@
-$redd: red;
-$greenn: green;
-$bluee: blue;
-$whitee: white;
+$red: #ED2124;
+$green: #60bb48;
+$blue: #000b5e;
+$purple: #56328c;
+$yellow: #ffc800;
+$orange: orange;
 
-.ime:hover{
-	background-color: red;
-	border: solid $redd 20px;
-	color: $whitee;
+%service{
+	background-color: white;
+	padding: 20px;
+	text-align: center;
 }
 
-.esewa:hover{
-	background-color: green;
-	border: solid $greenn 20px;
-	color: $whitee;
+
+.grid-content-red{
+	@extend %service;
+}
+.grid-content-red:hover{
+	background-color: $red;
+	color: white;
 }
 
-.prabhu:hover{
-	background-color: red;
-	border: solid $redd 20px;
-	color: $whitee;
+
+.grid-content-green{
+	@extend %service;
+}
+.grid-content-green:hover{
+	background-color: $green;
+	color: white;
 }
 
-.khalti:hover{
-	background-color: purple;
-	border: solid purple 20px;
-	color: $whitee;
+
+.grid-content-purple{
+	@extend %service;
+}
+.grid-content-purple:hover{
+	background-color: $purple;
+	color: white;
 }
 
-.western:hover{
-	background-color: yellow;
-	border:solid $yelloww 20px;
+
+.grid-content-blue{
+	@extend %service;
+}
+.grid-content-blue:hover{
+	background-color: $blue;
+	color: white;
+}
+
+
+.grid-content-yellow{
+	@extend %service;
+}
+.grid-content-yellow:hover{
+	background-color: $yellow;
+	color: white;
+}
+
+
+.grid-content-orange{
+	@extend %service;
+}
+.grid-content-orange:hover{
+	background-color: $orange;
+	color: white;
+}
+
+
+div{
+	p{
+	font-family: 'Lato', sans-serif;
+	}
 }
