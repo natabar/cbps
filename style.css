@@ -28,6 +28,7 @@
 .contact{
 	background-size: cover;
 }
+
 .blog{
 	background-size: cover;
 }
@@ -131,10 +132,20 @@
     grid-template-columns: auto auto auto auto;
 }
 
-.esewa:hover{
-	background-color: green;
-	border: solid green 20px;
-	color: white;
+.payment img{
+	height: 65px;
+	width: auto;
+}
+
+.payment>div{
+	padding: 5px;
+	margin: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+.payment>div:hover{
+	background-color: #f0f2ff;
 }
 
 
@@ -301,4 +312,49 @@ li::selection{
 .footer ul{
 	text-align: center;
 	background-color: #fffde0;
+}
+
+.home img:hover{
+	padding: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: springgreen;
+  justify-content: center;
+}
+
+.row>div{
+	background-color: white;
+	margin: 10px;
+	text-align: center;
+	width: 200px;
+}
+.row img{
+	height: 65px;
+}
+
+.container .row{
+	text-align: center;
+	justify-content: center;
+}
+
+.d-flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.p-2{
+	text-align: center;
+	justify-content: center;
+}
+
+.p-2:hover{
+	background-color: #00eb75;
 }

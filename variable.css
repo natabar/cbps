@@ -1,38 +1,7 @@
-.grid-content-imepay,
-.grid-content-prabhu,
-.grid-content-enetpay,
-.grid-content-esewa,
-.grid-content-khalti,
-.grid-content-cityexpress,
-.grid-content-westernunion,
-.grid-content-himalremit,
-.grid-content-easylink,
-.grid-content-boom,
-.grid-content-ipay,
-.grid-content-samsara,
-.grid-content-gme,
-.grid-content-moneygram,
-.grid-content-muktinath,
-.grid-content-sulav {
-  background-color: white;
+.payment img {
   text-align: center; }
 
-.grid-content-imepay:hover,
-.grid-content-prabhu:hover,
-.grid-content-enetpay:hover,
-.grid-content-esewa:hover,
-.grid-content-khalti:hover,
-.grid-content-cityexpress:hover,
-.grid-content-westernunion:hover,
-.grid-content-himalremit:hover,
-.grid-content-easylink:hover,
-.grid-content-boom:hover,
-.grid-content-ipay:hover,
-.grid-content-samsara:hover,
-.grid-content-gme:hover,
-.grid-content-moneygram:hover,
-.grid-content-muktinath:hover,
-.grid-content-sulav:hover {
+.payment img:hover {
   background-color: #f0f2ff; }
 
 div p {
