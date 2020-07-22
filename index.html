@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<meta name="description" content="Home page">
-	<meta name="keywords" content="Company, Home, Chakmake Bazar, Payment Solution">
-	<meta name="Chakmake Bazar" content="Chakmake Bazar Payment Solution">
+	   <meta charset="utf-8">
+	   <meta name="description" content="Home page">
+	   <meta name="keywords" content="Company, Home, Chakmake Bazar, Payment Solution">
+	   <meta name="Chakmake Bazar" content="Chakmake Bazar Payment Solution">
         <title>Chakmake Bazar Payment</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="variable.css">
@@ -14,16 +17,36 @@
     </head>
     <body>
     	<div class="home">
-        	<div class="nav">
-        		<ul>
-        			<li><a href="index.html"><img src="images/cbps.png" width="160px"></a></li>
-        			<li><a class="adjust" href="index.html">Home</a></li>
-        			<li><a href="services.html">Services</a></li>
-        			<li><a href="blog.html">Blog</a></li>
-        			<li><a href="about.html">About Us</a></li>
-        			<li><a href="contact.html">Contact Us</a></li>
-        		</ul>
-        	</div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a href="index.html"><img src="images/cbps.png" width="160px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="services.html">Service</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="false">Blog</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="false">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="false">Contact Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
         	<div class="nav2">
         		<ul>
         			<li><a href="#" title="facebook"><img src="images/facebook.png" height="20px"></a></li>
@@ -35,30 +58,40 @@
         	</div>
         	<div class="text-container">
         		<div>
-        			<img src="images/cbps.png" height="100px" class="img-scr">
+        			<img src="images/cbps.png" height="140px" class="img-scr">
         			<h2>making payment easier for you</h2>
-        			<img src="images/services3.jpg" width="50%">
+        			<img src="images/send-receive.jpg" width="50%">
         		</div>
         	</div>
-        	<h2 class="heading">Our Payment Partners</h2>
-        	<div class="payment">
-        		<div class="grid-content-imepay"><img src="images/imepay-logo.png"></div>
-        		<div class="grid-content-prabhu"><img src="images/prabhupay-logo.png"></div>
-        		<div class="grid-content-esewa"><img src="images/esewa-logo.png"></div>
-        		<div class="grid-content-khalti"><img src="images/khalti-logo.png"></div>
-        		<div class="grid-content-enetpay"><img src="images/enetpay-logo.png"></div>
-        		<div class="grid-content-cityexpress"><img src="images/cityexpress-logo.png"></div>
-        		<div class="grid-content-westernunion"><img src="images/westernunion-logo.png"></div>
-        		<div class="grid-content-himalremit"><img src="images/himal-logo.png"></div>
-        		<div class="grid-content-easylink"><img src="images/easylink-logo.png"></div>
-        		<div class="grid-content-boom"><img src="images/boom-logo.png"></div>
-        		<div class="grid-content-ipay"><img src="images/ipay-logo.png"></div>
-        		<div class="grid-content-samsara"><img src="images/samsara-logo.png"></div>
-        		<div class="grid-content-gme"><img src="images/gme-logo.png"></div>
-        		<div class="grid-content-moneygram"><img src="images/moneygram-logo.png"></div>
-        		<div class="grid-content-muktinath"><img src="images/muktinath-logo.png"></div>
-        		<div class="grid-content-sulav"><img src="images/sulav-logo.png"></div>
-        	</div>
+            <h2 class="heading">Our Payment Service Partners</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="row-lg-3"><img src="images/esewa.png"></div>
+                    <div class="row-lg-3"><img src="images/khalti.png"></div>
+                    <div class="row-lg-3"><img src="images/imepay.png"></div>
+                    <div class="row-lg-3"><img src="images/enetpay.png"></div>
+                </div>
+            </div><br>
+        	<h2 class="heading">Our Remittance Partners</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="row-lg-3"><img src="images/ime.png"></div>
+                    <div class="row-lg-3"><img src="images/prabhu-money-transfer.png"></div>
+                    <div class="row-lg-3"><img src="images/cityexpress.png"></div>
+                    <div class="row-lg-3"><img src="images/esewa-money-transfer.png"></div>
+                    <div class="row-lg-3"><img src="images/himal.png"></div>
+                    <div class="row-lg-3"><img src="images/westernunion.png"></div>
+                    <div class="row-lg-3"><img src="images/samsara.png"></div>
+                    <div class="row-lg-3"><img src="images/muktinath.png"></div>
+                    <div class="row-lg-3"><img src="images/moneygram.png"></div>
+                    <div class="row-lg-3"><img src="images/boom.png"></div>
+                    <div class="row-lg-3"><img src="images/ipay.png"></div>
+                    <div class="row-lg-3"><img src="images/united-remit.png"></div>
+                    <div class="row-lg-3"><img src="images/sulav-remit.png"></div>
+                    <div class="row-lg-3"><img src="images/easylink.png"></div>
+                    <div class="row-lg-3"><img src="images/sbl-remit.png"></div>
+                </div>
+            </div>
         	<div class="footer">
         		<ul>
         			<li><a href="#" class="badge badge-success">Sitemap</a></li>
